@@ -13,10 +13,10 @@
       - springboot-mysql-net
 
   backend:
-    image: bhargavsai558/2300032558-final-backend1:latest
+    image: bhargavsai558/2300032558-final1-backend1:latest
     container_name: springboot
     ports:
-      - "30036:2000"
+      - "30037:2000"
     depends_on:
       - mysqldb
     restart: on-failure
@@ -24,7 +24,7 @@
       - springboot-mysql-net
 
   frontend:
-    image: bhargavsai558/2300032558-final-frontend1:latest
+    image: bhargavsai558/2300032558-final1-frontend1:latest
     container_name: react
     ports:
       - "30038:80"
