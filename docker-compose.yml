@@ -35,8 +35,8 @@
     networks:
       - springboot-mysql-net
 
- volumes:
-  mysql_data:
+  volumes:
+   mysql_data:
 
- networks:
-  springboot-mysql-net:
+  networks:
+   springboot-mysql-net:
