@@ -16,7 +16,7 @@
     image: bhargavsai558/2300032558-final-backend1:latest
     container_name: springboot
     ports:
-      - "30034:2000"
+      - "30036:2000"
     depends_on:
       - mysqldb
     restart: on-failure
